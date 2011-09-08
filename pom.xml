@@ -80,10 +80,10 @@
 			<plugin>
 				<!--
 					Para compilar e rodar o jar execute os seguintes comandos:
-					cd spring-batch-hello-world
+					cd spring-batch-flat-file-database
 					mvn clean compile assembly:single
 					cd target
-					java -jar spring-batch-hello-world-0.0.1-with-dependencies.jar simpleJob.xml helloWorldJob
+					java -jar spring-batch-flat-file-database-0.0.1-with-dependencies.jar csvToDBJob copy
 				 -->
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>

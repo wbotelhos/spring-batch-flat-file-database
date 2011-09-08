@@ -51,7 +51,7 @@
 	</bean>
 
 	<!--
-		mvn exec:java -Dexec.mainClass=org.springframework.batch.core.launch.support.CommandLineJobRunner -Dexec.args="CSVToBD.xml copy"
+		mvn exec:java -Dexec.mainClass=org.springframework.batch.core.launch.support.CommandLineJobRunner -Dexec.args="csvToDBJob.xml copy"
 	-->
 
 </beans>

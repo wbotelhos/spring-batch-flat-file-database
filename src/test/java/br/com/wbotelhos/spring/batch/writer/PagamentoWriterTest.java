@@ -13,7 +13,7 @@ import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.util.StopWatch;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:CSVToBD.xml")
+@ContextConfiguration(locations = "classpath:csvToDBJob.xml")
 @TransactionConfiguration(transactionManager = "transactionManager", defaultRollback = false)
 public class PagamentoWriterTest {
 
