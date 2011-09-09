@@ -42,6 +42,7 @@
 				<property name="lineTokenizer">
 					<bean class="org.springframework.batch.item.file.transform.DelimitedLineTokenizer">
 						<property name="names" value="depositante,codigo,tipo,data,valor,comentario" />
+						<property name="delimiter" value="," /> <!-- default -->
 					</bean>
 				</property>
 
