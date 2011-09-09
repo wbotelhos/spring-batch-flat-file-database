@@ -11,22 +11,20 @@ Washington Botelho [[Blog](http://wbotelhos.com.br) | [Twitter](http://twitter.c
 [[Site](http://static.springsource.org/spring-batch/) | [Documentation](http://static.springsource.org/spring-batch/reference/index.html)]
 
 ## Keywords
-  
-+ DAO;
+
++ DataSourceTransactionManager;
 + DefaultLineMapper;
 + DelimitedLineTokenizer;
 + DriverManagerDataSource;
 + FieldSetMapper;
 + FlatFileItemReader;
-+ ItemWriter;
 + JdbcTemplate;
-+ Job;
-+ Launcher;
-+ Listener;
++ JobExecutionListener;
++ MapJobRepositoryFactoryBean;
 + MySQL;
-+ Repository;
-+ Spring.
-+ Step.
++ SimpleJobLauncher;
++ ItemListenerSupport;
++ ItemWriter.
 
 ## Buy me a coffee
 
